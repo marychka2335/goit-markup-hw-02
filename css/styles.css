@@ -15,7 +15,7 @@
 
 body {
   font-family: "Roboto", sans-serif;
-  line-height: calc(24 / 16);
+  line-height: 1.5;
   letter-spacing: 0.02em;
   background-color: var(--white-color);
   color: var(--text-color);
@@ -24,6 +24,14 @@ body {
 .menu-link {
   color: var(--dark-color);
   font-weight: 500;
+}
+
+.nav-menu-item {
+  color: var(--dark-color);
+}
+
+.contacts {
+  font-style: normal;
 }
 
 .contact-link {
@@ -109,7 +117,7 @@ body {
   font-weight: 500;
   font-size: 16px;
   letter-spacing: 0.04em;
-  line-height: calc(24 / 16);
+  line-height: 1.5;
 }
 
 .btn:hover,
@@ -152,6 +160,21 @@ body {
 
 .projects .project-item {
   border: 1px solid var(--accent-color);
+}
+
+.projects-title {
+  color: var(--dark-color);
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  color: var(--text-color);
+}
+
+.projects-text {
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
 }
 
 .footer-style {
