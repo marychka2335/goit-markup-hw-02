@@ -61,19 +61,6 @@ body {
   text-decoration: none;
 }
 
-/* .visually-hidden {
-  position: absolute;
-  width: 1px;
-  height: 1px;
-  margin: -1px;
-  border: 0;
-  padding: 0;
-  white-space: nowrap;
-  clip-path: inset(100%);
-  clip: rect(0 0 0 0);
-  overflow: hidden;
-} */
-
 .header-one {
   font-weight: 700;
   font-size: 56px;
@@ -105,15 +92,11 @@ body {
   background-color: var(--dark-color);
 }
 
-.business-item {
-  border: 1px solid var(--accent-color);
-}
 
 .btn {
   cursor: pointer;
   font-family: inherit;
   text-align: center;
-  border: transparent;
   font-weight: 500;
   font-size: 16px;
   letter-spacing: 0.04em;
@@ -132,7 +115,6 @@ body {
 }
 
 .filter-button {
-  border: 1px solid var(--accent-color);
   background-color: var(--light-color);
   color: var(--primary-band-color);
 }
@@ -156,10 +138,6 @@ body {
 
 .team-text {
   text-align: center;
-}
-
-.projects .project-item {
-  border: 1px solid var(--accent-color);
 }
 
 .projects-title {
